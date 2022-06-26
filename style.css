@@ -257,3 +257,65 @@
 .collections__card_conatiner .card .content span {
     font-weight: 300;
 }
+.get__app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255,251,247);
+    width: 100%;
+    padding: 3rem 6rem;
+}
+.get__app .semi__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.get__app .semi__container .left {
+    flex: 2;
+}
+.get__app .semi__container .left img {
+    width: 100%;   
+    object-fit: cover;
+    object-position: center;
+}
+.get__app .semi__container .right{
+    flex: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.get__app .semi__container .right h1 {
+    font-size: 34px;
+    font-weight: 600;
+}
+.get__app .semi__container .right p {
+    font-size: 15px;
+}
+.right  .radio__buttons_container {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.get__app .semi__container .right .radio__buttons_container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+.get__app .semi__container .right .radio__buttons_container div input{
+    height: 15px;
+    width: 15px;
+    accent-color: rgb(239,79,95);
+}
+.get__app .semi__container .right .input__container {
+    display: flex;
+    gap: 10px;
+}
+.get__app .semi__container .right .input__container input, 
+.get__app .semi__container .right .input__container button {
+    padding: 10px 12px;
+}
